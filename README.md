@@ -1,7 +1,7 @@
 FormFireCodeChallenge
 =====================
 
-The input for this script consists of a goal tuple ("Color","Color") indicating the beginning and ending marker colors for our master lock, followed by a series of chip definitions stored as tuples. The goal is to arrange the colored chips in a way that allows them to go from the starting color in the goal state to the ending color in the goal state, unlocking our lock.   
+The input for this script consists of a goal tuple ("Color","Color") indicating the beginning and ending marker colors for our master lock, followed by a series of chip definitions stored as tuples. The goal is to arrange the colored chips in a way that allows them to go from the starting color in the goal state to the ending color in the goal state, unlocking our lock. I ran the code in my terminal using "python FormFireCode.py".
 
 My code uses the Python itertools library and the permutations method to accept an arrangement of chip tuples. I define the goal tuple as being ("Blue","Green") which is the goal for each of the three supplied examples. I define the collection of chip tuples inside the combos = list(itertools.permutations([collection of chips])) declaration. 
 
