@@ -16,7 +16,7 @@ combos = list(itertools.permutations([("Blue","Green"),("Blue","Yellow"),("Red",
 #combos = list(itertools.permutations([("Blue","Green"),("Blue","Yellow"),("Green","Yellow"),("Orange","Red"),("Red","Green"),("Red","Orange"),("Yellow","Blue"),("Yellow","Red"),("Red","Red")]))
 
 # the itertools.permutations creates a list of all possible combinations of the input tuples and stores them in a list 
-# I know this is a terrrrribly inefficient method that uses "brute force" to load a dictionary of all 
+# I know this is an inefficient method that uses "brute force" to load a dictionary of all 
 # possible combinations of paths, as the permutations method itself is of O(n!) complexity.
 # ie. 5 input tuples = 120 possibilities. 10 input tuples = 3,628,800 possibilities
 
